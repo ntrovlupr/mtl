@@ -1,0 +1,17 @@
+.btn {
+    background-color: $bkgdBlue;
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+
+    &--fuschia {
+        background-color: $bkgdfuschia;
+    }
+
+    &--large {
+        font-size: 1.3rem;
+        padding: .7rem 1.5rem;
+    }
+    
+}
