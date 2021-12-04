@@ -4,21 +4,21 @@
         hsla(180, 55%, 39%, 0.692) 7%,
         hsla(212, 44%, 41%, 0.856)
       );
-    padding: 10px;
+    padding: 1.875em;
     height: 45vh;
 
     @mixin atSmall {
-      
+        padding: 4.25em
        
     }
 
     @mixin atMedium {
-        
+        padding: 4.75em
        
   }
 
   @mixin atLarge {
-        
+    padding: 5em
   }
 
     &__text-content {
