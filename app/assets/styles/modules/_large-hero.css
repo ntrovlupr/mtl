@@ -5,7 +5,6 @@
         hsla(214, 44%, 11%, 0.856)
       );
     display: grid;
-    height: 29vh;
     padding: 1.2em;
 
     @mixin atSmall {
