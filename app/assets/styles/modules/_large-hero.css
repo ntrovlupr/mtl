@@ -1,11 +1,11 @@
 .large-hero {
     background-image: linear-gradient(
         -45deg,
-        hsla(189, 55%, 39%, 0.692) 2%,
-        hsla(212, 44%, 41%, 0.856)
+        hsla(190, 54%, 11%, 0.692) 2%,
+        hsla(214, 44%, 11%, 0.856)
       );
     display: grid;
-    height: 40vh;
+    height: 29vh;
     padding: 1.2em;
 
     @mixin atSmall {
@@ -42,7 +42,7 @@
   }
 
     @mixin atLarge {
-     
+      
   }
 
     &__title {
@@ -66,6 +66,7 @@
 
     @mixin atLarge {
         font-size: 2.7rem;
+        
     }
 
     }
@@ -88,14 +89,14 @@
   
         @mixin atMedium {
           font-size: 1.7rem;
-          max-width: 32rem;
+          max-width: 35rem;
           padding-right: 7em;
       }
   
       @mixin atLarge {
           font-size: 2.3rem;
           max-width: 37rem;
-          padding-right: 13.5em;
+          padding-right: .5em;
       }
     }
 

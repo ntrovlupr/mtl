@@ -1,0 +1,8 @@
+.svgtek-banner {
+    background-image: linear-gradient(
+      -25deg,
+      hsla(73, 98%, 59%, 0.548) 27%,
+      hsl(49, 95%, 76%)
+    );
+  height: 11vh;
+}
