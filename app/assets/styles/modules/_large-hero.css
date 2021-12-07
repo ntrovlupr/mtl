@@ -8,7 +8,7 @@
     padding: 1.2em;
 
     @mixin atSmall {
-        padding: 2.25em;
+        padding: 2.75em;
        
     }
 
@@ -32,12 +32,12 @@
 
     @mixin atSmall {
        padding-bottom: 2em;
-       height: 50vh;
+      
     }
 
     @mixin atMedium {
        padding-bottom: 2.1em;
-       height: 60vh;
+     
   }
 
     @mixin atLarge {
