@@ -25,7 +25,6 @@
         align-self: center;
         grid-column: 1;
         grid-row: 1;
-        padding-top: 0px;
         text-align: left;
         
     }
@@ -50,7 +49,7 @@
         font-weight: 700;
         margin: 0;
         max-width: 21em;
-        padding: .3em 1.5em .375em .3em;
+        padding: .3em .5em .375em 0em;
 
 
       @mixin atSmall {
@@ -77,8 +76,7 @@
         text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
         max-width: 21rem;
         margin-left: 0;
-        margin-right: auto;
-        padding-left: .5em;
+        padding-right: 2em;
 
         @mixin atSmall {
             font-size: 1.5rem;
