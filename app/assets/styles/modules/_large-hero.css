@@ -2,8 +2,8 @@
     background-image: linear-gradient(
         -25deg,
         hsla(84, 8%, 12%, 0.808) 2%,
-        hsla(0, 0%, 0%, 0.952)
-      );
+        hsla(0, 0%, 0%, 0.952));
+    border-top: 2px solid hsla(0, 0%, 0%, 0.952);
     display: grid;
     padding: 1.2em;
 
@@ -87,14 +87,14 @@
         @mixin atMedium {
           font-size: 1.7rem;
           max-width: 35rem;
-          padding-right: 7em;
+          padding-right: 4em;
           
       }
   
       @mixin atLarge {
           font-size: 1.9rem;
           max-width: 37rem;
-          padding-right: .5em;
+          padding-right: 2.5em;
       }
     }
 
@@ -102,10 +102,18 @@
 
 .large-hero__text-content {
       @mixin atMedium  {
-        padding-left: 5em;
-        max-width: 700px; 
+        padding-right: 1.5em;
+        padding-left: 7em;
+        max-width: 565px; 
+      }
+
+      @mixin atLarge  {
+    
+        padding-left: 12em;
+        max-width: 600px; 
       }
 }
+
 
 
 
