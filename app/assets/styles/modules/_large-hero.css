@@ -1,8 +1,8 @@
 .large-hero {
     background-image: linear-gradient(
-        -45deg,
-        hsla(190, 54%, 11%, 0.692) 2%,
-        hsla(214, 44%, 11%, 0.856)
+        -25deg,
+        hsla(84, 8%, 12%, 0.808) 2%,
+        hsla(0, 0%, 0%, 0.952)
       );
     display: grid;
     padding: 1.2em;
@@ -88,10 +88,11 @@
           font-size: 1.7rem;
           max-width: 35rem;
           padding-right: 7em;
+          
       }
   
       @mixin atLarge {
-          font-size: 2.3rem;
+          font-size: 1.9rem;
           max-width: 37rem;
           padding-right: .5em;
       }
@@ -99,7 +100,12 @@
 
 }
 
-
+.large-hero__text-content {
+      @mixin atMedium  {
+        padding-left: 5em;
+        max-width: 700px; 
+      }
+}
 
 
 

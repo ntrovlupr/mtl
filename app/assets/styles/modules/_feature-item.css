@@ -1,3 +1,17 @@
 .feature-item {
     
 }
+
+
+#features {
+    background-image: linear-gradient(
+        -45deg,
+        hsla(48, 17%, 88%, 0.829)2%,
+        hsla(190, 24%, 90%, 0.788)
+      );
+    height: auto;   
+}
+
+.max-width {
+  max-width: 100px;
+}

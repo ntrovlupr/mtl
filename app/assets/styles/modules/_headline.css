@@ -1,10 +1,10 @@
 .headline {
     font-weight: 300;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     color: $headline-clr;
 
     @mixin atSmall {
-        font-size: 2.875rem;
+        font-size: 1.875rem;
     }
     
     &--centered {
@@ -14,6 +14,7 @@
 
     &--small {
         font-size: 1.2rem;
+
         @mixin atSmall {
             font-size: 1.875rem;
         }

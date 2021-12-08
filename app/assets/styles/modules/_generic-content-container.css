@@ -1,12 +1,19 @@
 .generic-content-container {
+        
+    h2,
+    p {
+        padding-left: .5em;
+    }
     
     p {
         font-weight: 300;
         line-height: 1.65;
-        margin: 0 4em 1.8rem 5px;
+        margin: 0 4em 1.8rem 10px;
+        
 
         @mixin atSmall {
             font-size: 1.125rem;
+            
         }
     }
 
@@ -15,3 +22,33 @@
         
     }
 }
+
+h2 {
+    padding-right: 4em;
+}
+
+.our-beginning {
+    max-width: 54em;
+    padding-top: 1.3em;
+}
+
+.our-beginning__image {
+    padding-top: 1em;
+    padding-left: 1.7em;
+    width: 190px;
+    height: 185px;
+    object-fit: cover;
+    
+
+    @mixin atSmall {
+        padding-top: .5em;
+        padding-left: 3.7em;
+    }
+
+    @mixin atMedium {
+        
+        padding-left: 4.7em;
+    }
+
+}
+
