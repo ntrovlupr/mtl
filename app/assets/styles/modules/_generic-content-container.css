@@ -1,8 +1,9 @@
 .generic-content-container {
-
+        
     h2,
     p {
         padding-left: .5em;
+       
     }
     
     p {
@@ -25,7 +26,17 @@
 
 .our-beginning {
     max-width: 54em;
-    padding-top: 1.3em;
+    width: 100%;
+
+    @mixin atSmall {
+        padding-top: 3em;
+    }
+
+    @mixin atMedium {
+       
+    }
+
+
 }
 
 .our-beginning__image {
@@ -48,3 +59,11 @@
 
 }
 
+.right-pad {
+    
+
+    @mixin atSmall {
+        padding-right: 3em;
+        
+    }
+}

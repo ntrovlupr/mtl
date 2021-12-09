@@ -1,5 +1,12 @@
 .page-section {
-    padding: 1.3em 0;
+    padding: 1em 0;
 
+        &--gray {
+            background-image: linear-gradient(
+                -45deg,
+                hsla(73, 25%, 82%, 0.904) 27%,
+                hsl(159, 40%, 89%));
+            height: auto; 
+        }
     
 }

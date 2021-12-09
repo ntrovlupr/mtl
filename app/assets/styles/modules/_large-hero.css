@@ -8,17 +8,17 @@
     padding: 1.2em;
 
     @mixin atSmall {
-        padding: 2.75em;
+        padding-left:2.3em;
        
     }
 
     @mixin atMedium {
-        padding: 4.75em
+        padding-left: 3.75em;
        
   }
 
   @mixin atLarge {
-    padding: 5em;
+    padding: em;
   }
 
     &__text-content {
