@@ -1,11 +1,10 @@
 .large-hero {
-    background-image: linear-gradient(
-        -25deg,
-        hsla(84, 8%, 12%, 0.808) 2%,
-        hsla(0, 0%, 0%, 0.952));
-    border-top: 2px solid hsla(0, 0%, 0%, 0.952);
-    display: grid;
-    padding: 1.2em;
+        background-image: linear-gradient(
+        -90deg,
+        hsla(180, 5%, 31%, 0.932),
+        hsla(200, 6%, 10%, 0.842)80%); 
+        display: grid;
+        padding: 1.2em;
 
     @mixin atSmall {
         padding-left:2.3em;
@@ -45,7 +44,7 @@
 
     &__title {
         color: $mainWhite;
-        font-size: 1.699rem;
+        font-size: 1.399rem;
         font-weight: 700;
         margin: 0;
         max-width: 21em;
@@ -71,7 +70,7 @@
 
     &__description {
         color: $mainWhite;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: 100;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
         max-width: 21rem;
