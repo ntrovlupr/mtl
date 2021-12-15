@@ -27,5 +27,16 @@
 .our-beginning {
     max-width: 54em;
     width: 100%;
+    
+
+    @mixin atSmall {
+        margin: 1em;
+    }
+
+    @mixin atMedium {
+        margin: 2em;
+    }
+
+
 }
 
