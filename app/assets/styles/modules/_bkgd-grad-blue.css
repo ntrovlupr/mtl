@@ -1,0 +1,9 @@
+.bkgd-grad-blue {
+    
+    padding: 1.3em 0;
+    background-image: linear-gradient(-45deg,
+            hsla(201, 25%, 82%, 0.904) 7%,
+            hsl(159, 40%, 89%));
+    height: auto; 
+    
+}

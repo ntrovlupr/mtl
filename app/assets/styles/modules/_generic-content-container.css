@@ -1,21 +1,25 @@
 .generic-content-container {
-    
-    h2,
-    p {
-        padding-left: 1.2em;
-       
-    }
+   
     
     p {
-        font-weight: 300;
-        line-height: 1.35;
-        margin: .3em 4em 1.8rem 0px;
+    font-weight: 300;
+    line-height: 1.65;
+    margin: .7rem 0 1em;
         
 
         @mixin atSmall {
-            font-size: 1.125rem;
-            
+            font-size: 1.1rem;
+            max-width: 700px;
+            padding-right: .5em;
         }
+
+        @mixin atMedium {
+            font-size: 1.125rem;
+            max-width: 900px;
+            
+        
+        }
+
     }
 
     p a {
@@ -24,19 +28,28 @@
     }
 }
 
+
+
 .our-beginning {
-    max-width: 54em;
-    width: 100%;
-    
+   max-width: 1250px;
+   width: 100%;
+   
+
 
     @mixin atSmall {
-        margin: 1em;
+        padding-top: 1.3em;
+        padding-bottom: 2.3em;
+        
+        
     }
 
     @mixin atMedium {
-        margin: 2em;
+       
     }
 
+    @mixin atLarge {
+             
+    }
 
 }
 

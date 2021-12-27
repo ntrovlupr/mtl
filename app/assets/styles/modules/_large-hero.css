@@ -1,23 +1,25 @@
 .large-hero {
         background-image: linear-gradient(
         -90deg,
-        hsla(180, 5%, 31%, 0.932),
+        hsla(196, 12%, 30%, 0.932),
         hsla(200, 6%, 10%, 0.842)80%); 
         display: grid;
-       padding: 1.5em 0;
+        padding: 1.5em 0;
+        width: 100%;
 
     @mixin atSmall {
-        padding-left:2.3em;
+        padding-left: .3em;
        
     }
 
     @mixin atMedium {
-        padding-left: 7.75em;
+        padding-left: .75em;
+       
        
   }
 
   @mixin atLarge {
-    padding-left: 9.75em;
+   
   }
 
     &__text-content {
@@ -25,16 +27,16 @@
         grid-column: 1;
         grid-row: 1;
         text-align: left;
-        
+        padding-left: 2.9em;
     }
 
     @mixin atSmall {
-       padding-bottom: 2em;
+      
       
     }
 
     @mixin atMedium {
-       padding-bottom: 2.1em;
+       
      
   }
 
@@ -44,30 +46,49 @@
 
     &__title {
         color: $mainWhite;
-        font-size: 1.399rem;
+        font-size: 1.375rem;
         font-weight: 700;
         margin: 0;
         max-width: 21em;
-        padding: .3em .1em .375em 0em;
-
-
+        padding:0px 0;
+         
       @mixin atSmall {
-          font-size: 1.755rem;
-          letter-spacing: 1px;
+        padding-top: 40px;
+        padding-left: 10px;
+        font-size: 1.575rem;
+        letter-spacing: 1px;
       }
 
       @mixin atMedium {
-        font-size: 1.866rem;
+        font-size: 1.722rem;
         letter-spacing: 1px;
+        padding-left: 3px;
     }
+
+      @mixin atLarge {
+      font-size: 1.9rem;
+      letter-spacing: 1px;
+      padding-left: 3px;
+  }
 
     }  
 
+    &__sub-entry {
+      color: $mainWhite;
+
+      @mixin atSmall {
+        padding-left: 9px;
+      }
+
+      @mixin atMedium {
+        padding-left: 3px;
+      }
+
+    }
    
 
     &__description {
         color: $mainWhite;
-        font-size: 1.1rem;
         font-weight: 100;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
         max-width: 21rem;
@@ -75,7 +96,7 @@
         padding-right: 2em;
 
         @mixin atSmall {
-            font-size: 1.5rem;
+            font-size: 4.5rem;
             max-width: 25rem;
             padding-right: .2em;
         }
@@ -93,26 +114,26 @@
           padding-right: .2em;
       }
     }
-
+  
 }
 
-.large-hero__text-content {
+&__text-content {
       @mixin atSmall  {
         padding-right: 1.5em;
-        padding-left: 2em;
-        max-width: 565px; 
+        padding-left: .2em;
+        max-width: 600px; 
       }
 
       @mixin atMedium  {
         padding-right: 1.5em;
-        padding-left: 6em;
-        max-width: 565px; 
+        padding-left: 2em;
+        max-width: 650px; 
       }
 
       @mixin atLarge  {
     
-        padding-left: 8em;
-        max-width: 600px; 
+        padding-left: 12.7em;
+        max-width: 900px; 
       }
 }
 

@@ -1,35 +1,16 @@
 .page-section {
-    padding: 1.3em 0;
-
-        &--bkgd-lt-grn {
-            background-image: linear-gradient(
-                -45deg,
-                hsla(128, 25%, 82%, 0.904) 7%,
-                hsl(159, 40%, 89%));
-            height: auto; 
-        }
-
-        &__banner {
-            background-image: linear-gradient(
-              -90deg,
-              hsl(159, 40%, 89%) 3%,
-              hsl(182, 67%, 46%) 95%);
-          height: 3.9vh;
-          
-        }
-        
-        /* 
-        hsla(73, 98%, 59%, 0.548) 27% 
-        hsl(49, 95%, 76%)
-        */
+        padding: 1em 0;
 
         @mixin atSmall {
             padding: 1em;
         }
 
         @mixin atMedium {
-            padding:;
+            
         }
-    
-}
 
+        
+    
+    }
+
+   

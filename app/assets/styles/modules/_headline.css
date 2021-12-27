@@ -1,11 +1,21 @@
 .headline {
-    color: $headline-clr;
-    font-size: 1.2rem;
-    font-weight: 400;
-    
+    color: $font-clr;
+    font-size: 1.175rem;
+    font-weight:700;
 
     @mixin atSmall {
-        font-size: 1.375rem;
+        font-size: 1.3rem;
+        
+       
+    }
+
+    @mixin atMedium {
+        font-size: 1.477rem;
+       
+    }
+
+    @mixin atLarge {
+        font-size: 1.6rem;
         
     }
     
@@ -14,18 +24,15 @@
     }
 
     &--small {
-        font-size: 1.2rem;
+        font-size: 1.125rem;
 
-        @mixin atSmall {
-            font-size: 1.875rem;
-        }
+      
         
     }
 
     &--narrow {
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
+       
+       
     }
 
     &--light {
@@ -33,7 +40,7 @@
     }
 
     &--b-margin-small {
-        margin-bottom: .5em;
+        
     }
 
     &--b-margin-large {
@@ -44,8 +51,10 @@
         margin-top: 0;
     }
 
-    &--yes-l-padd {
-        padding-left: 2em;
+    strong {
+        font-weight: 700;
     }
+
+    
 }
 

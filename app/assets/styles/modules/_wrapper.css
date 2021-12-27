@@ -2,11 +2,25 @@
     overflow: hidden;
     padding-left: 18px;
     padding-right: 18px;
-    max-width: 1250px;
+    max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
 
-    
+    &--medium {
+        max-width: 976px;
+    }
+
+    &--large {
+        
+    }
+
+    &--b-margin-small {
+        margin-bottom: 3em;
+    }
+
+        @mixin atSmall {
+            margin-bottom: 2em;
+        }
 
 
 }
